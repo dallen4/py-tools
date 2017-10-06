@@ -2,5 +2,5 @@
 
 import os
 for filename in os.listdir("."):
-    if filename.startswith("Copy of "):
+    if filename.startswith("Comp424-"):
         os.rename(filename, filename[8:])

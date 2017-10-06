@@ -3,6 +3,17 @@
 
 .DS_Store
 
+# python libraries
+scapy/
+SoundScrape/
+python-tidal/
+
+# VS Code
+.vscode/
+
+# credentials
+credentials.json
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -11,6 +22,9 @@ __pycache__/
 
 # C extensions
 *.so
+
+# login credentials
+*.csv
 
 # Distribution / packaging
 .Python
