@@ -35,7 +35,7 @@ msg['Subject'] = 'Request for Maintenance #%d' % random.randint(0, 1000)
 
 # gmail credentials for temp acct
 username = author
-pwd = 'epsilon;'
+pwd = ''
 
 # set up SSL secure server
 server_ssl = smtplib.SMTP_SSL('smtp.gmail.com', 465)
